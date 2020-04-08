@@ -5,10 +5,11 @@
 pizza with Cheese and Pepperoni and Garlic and Peppers.”*/
 
 /* 1*/ pizza = ['mushroom', 'onion', 'beef'];
-console.log(pizza);
+console.log(pizza); 
 
 function thatWeCanCall(){
-"A delicious pizza with " + (pizza.join(", "));
+
+   
 var pizzaSentence = "";
 if (pizza.length === 1) {
     pizzaSentence = [0];
@@ -24,3 +25,13 @@ if (pizza.length === 1) {
 thatWeCanCall();
 
 console.log(thatWeCanCall());
+
+
+
+/*Exercise - Capitalize every element
+1. Write a short function to capitalize every element of the array.
+2. You must use the Array#map function and the String#uppercase function.*/
+/*var pizzaUppercase = pizza.map(function toUpper(pizza){ return pizza.toUpperCase();});
+or can use 
+for (let i = 0; i < pizza.length; i++){
+   pizza[i] = pizza[i].toUpperCase()} */
