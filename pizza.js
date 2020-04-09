@@ -35,3 +35,10 @@ console.log(thatWeCanCall());
 or can use 
 for (let i = 0; i < pizza.length; i++){
    pizza[i] = pizza[i].toUpperCase()} */
+
+   /* should have answered var pizzaToppings=['mushroom', 'beef', 'onion']
+
+    function pizza(){
+        var addToppings = pizzaToppings.join('and');
+        return "A delicious Pizza that has " + addToppings;
+    };
